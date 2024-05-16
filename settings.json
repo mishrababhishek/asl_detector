@@ -1,5 +1,0 @@
-{
-    "flip_image": true,
-    "use_cuda_if_available": true,
-    "threshold": 30
-}
