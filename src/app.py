@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets
-from main_window import Ui_MainWindow
-from ui_handler import UIHandler
+from src.main_window import Ui_MainWindow
+from src.ui_handler import UIHandler
 import sys
 
 
@@ -12,7 +12,3 @@ def startApplication() -> None:
     MainWindow.show()
     UIHandler(ui)
     sys.exit(app.exec_())
-
-
-if __name__ == "__main__":
-    startApplication()

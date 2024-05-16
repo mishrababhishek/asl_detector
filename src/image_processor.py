@@ -1,8 +1,8 @@
 from cvzone.HandTrackingModule import HandDetector
 from cv2 import VideoCapture, flip, destroyAllWindows, resize, cvtColor, COLOR_BGR2RGB
 from PyQt5.QtCore import QThread
-from models import ImageSignalArg
-from asl_signal import ASLSignal
+from src.models import ImageSignalArg
+from src.asl_signal import ASLSignal
 import traceback
 import numpy as np
 

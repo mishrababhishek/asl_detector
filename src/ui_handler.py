@@ -1,8 +1,8 @@
-from main_window import Ui_MainWindow
-from sign_language_detector import SignLanguageDetector
-from image_processor import ImageProcessor
-from models import ImageSignalArg
-from locked_detector import LockedDetector
+from src.main_window import Ui_MainWindow
+from src.sign_language_detector import SignLanguageDetector
+from src.image_processor import ImageProcessor
+from src.models import ImageSignalArg
+from src.locked_detector import LockedDetector
 from PyQt5.QtGui import QImage, QPixmap, QPainter
 from PyQt5.QtCore import Qt, QObject
 import traceback

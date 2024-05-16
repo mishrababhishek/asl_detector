@@ -1,5 +1,5 @@
 from collections import deque
-from asl_signal import ASLSignal
+from src.asl_signal import ASLSignal
 
 
 class LockedDetector:
